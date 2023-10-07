@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20231007 08:42:52.519" rpa="false" schemaversion="3">
+<suite id="s1" name="Cadastro" source="C:\Users\Gledson Nascimento\Documents\projetos\robot-framework\buger_eats_robot\suites\cadastro\cadastro.robot">
+<test id="s1-t1" name="Acessar o sistema" line="6">
+<kw name="DADO QUE acesso o buger eats" library="home_page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${geral.url}</arg>
+<arg>${geral.browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231007 08:42:52.783" level="INFO">Opening browser 'chrome' to base url 'https://buger-eats.vercel.app'.</msg>
+<msg timestamp="20231007 08:42:56.444" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20231007 08:42:56.444" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 113
+Current browser version is 117.0.5938.134 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00828893+48451]
+	(No symbol) [0x007BB8A1]
+	(No symbol) [0x006C5058]
+	(No symbol) [0x006E5D9C]
+	(No symbol) [0x006E1AA3]
+	(No symbol) [0x006E0019]
+	(No symbol) [0x00710798]
+	(No symbol) [0x0071047C]
+	(No symbol) [0x0070A0B6]
+	(No symbol) [0x006E7E08]
+	(No symbol) [0x006E8F2D]
+	GetHandleVerifier [0x00A88E3A+2540266]
+	GetHandleVerifier [0x00AC8959+2801161]
+	GetHandleVerifier [0x00AC295C+2776588]
+	GetHandleVerifier [0x008B2280+612144]
+	(No symbol) [0x007C4F6C]
+	(No symbol) [0x007C11D8]
+	(No symbol) [0x007C12BB]
+	(No symbol) [0x007B4857]
+	BaseThreadInitThunk [0x7731FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77527B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77527AEE+238]
+</msg>
+<status status="FAIL" starttime="20231007 08:42:52.782" endtime="20231007 08:42:56.538"/>
+</kw>
+<status status="FAIL" starttime="20231007 08:42:52.781" endtime="20231007 08:42:56.538"/>
+</kw>
+<kw name="E clico no botao de cadastro" library="home_page">
+<status status="NOT RUN" starttime="20231007 08:42:56.539" endtime="20231007 08:42:56.539"/>
+</kw>
+<kw name="QUANDO preencho os campos do cadastro" library="cadastro_page">
+<status status="NOT RUN" starttime="20231007 08:42:56.539" endtime="20231007 08:42:56.539"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20231007 08:42:56.539" endtime="20231007 08:42:56.539"/>
+</kw>
+<status status="FAIL" starttime="20231007 08:42:52.781" endtime="20231007 08:42:56.539">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 113
+Current browser version is 117.0.5938.134 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00828893+48451]
+	(No symbol) [0x007BB8A1]
+	(No symbol) [0x006C5058]
+	(No symbol) [0x006E5D9C]
+	(No symbol) [0x006E1AA3]
+	(No symbol) [0x006E0019]
+	(No symbol) [0x00710798]
+	(No symbol) [0x0071047C]
+	(No symbol) [0x0070A0B6]
+	(No symbol) [0x006E7E08]
+	(No symbol) [0x006E8F2D]
+	GetHandleVerifier [0x00A88E3A+2540266]
+	GetHandleVerifier [0x00AC8959+2801161]
+	GetHandleVerifier [0x00AC295C+2776588]
+	GetHandleVerifier [0x008B2280+612144]
+	(No symbol) [0x007C4F6C]
+	(No symbol) [0x007C11D8]
+	(No symbol) [0x007C12BB]
+	(No symbol) [0x007B4857]
+	BaseThreadInitThunk [0x7731FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77527B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77527AEE+238]
+</status>
+</test>
+<status status="FAIL" starttime="20231007 08:42:52.521" endtime="20231007 08:42:56.541"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Cadastro">Cadastro</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
