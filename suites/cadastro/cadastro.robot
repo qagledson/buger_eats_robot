@@ -7,5 +7,5 @@ Acessar o sistema
     DADO QUE acesso o buger eats
     E clico no botao de cadastro
     QUANDO preencho os campos do cadastro
-    Sleep        3
+    Sleep        2
 
